@@ -27,7 +27,7 @@ public class Collectionip extends AppCompatActivity {
     private FirebaseDatabase rootnode = FirebaseDatabase.getInstance();
     private DatabaseReference usernode = rootnode.getReference();
 
-    protected void onStart() {
+   protected void onStart() {
         super.onStart();
         usernode.addValueEventListener(new ValueEventListener() {
             @Override
@@ -52,8 +52,6 @@ public class Collectionip extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_collectionip);
-
-
 
         ename = findViewById(R.id.edtInput1);
         egender = findViewById(R.id.edtInput2);

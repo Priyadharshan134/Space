@@ -48,7 +48,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/launch"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="datetime" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -74,7 +75,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/landing"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="datetime" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -100,7 +102,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/docking"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="datetime" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -126,7 +129,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/fromiss"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="datetime" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -152,7 +156,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/toiss"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="datetime" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -178,7 +183,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/layover"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="datetime" />
 
         </com.google.android.material.textfield.TextInputLayout>
 

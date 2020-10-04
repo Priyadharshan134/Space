@@ -30,7 +30,7 @@ public class Login extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private GoogleSignInClient mGoogleSignInClient;
 
-    protected void onStart() {
+   protected void onStart() {
         super.onStart();
         FirebaseUser user = mAuth.getCurrentUser();
 
@@ -88,7 +88,7 @@ public class Login extends AppCompatActivity {
                         Intent intent = new Intent(getApplicationContext(),Collectionip.class);
                         startActivity(intent);
                     } else {
-                        Toast.makeText(Login.this, "Failed", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Failed", Toast.LENGTH_SHORT).show();
                     }
                 }
             });
