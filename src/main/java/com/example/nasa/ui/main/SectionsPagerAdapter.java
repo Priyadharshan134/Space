@@ -11,6 +11,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import com.example.nasa.Fragment1;
 import com.example.nasa.Fragment2;
 import com.example.nasa.Fragment3;
+import com.example.nasa.Fragment4;
 import com.example.nasa.R;
 
 import java.util.Objects;
@@ -44,7 +45,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
                fragment = new Fragment3();
                break;
            case 3:
-               fragment = new Fragment3();
+               fragment = new Fragment4();
                break;
        }
        return Objects.requireNonNull(fragment);
@@ -58,7 +59,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        // Show 3 total pages.
+        // Show 4 total pages.
         return 4;
     }
 }
