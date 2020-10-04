@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "200271747574",
+    "firebase_url": "https://spaceapp-b427e.firebaseio.com",
+    "project_id": "spaceapp-b427e",
+    "storage_bucket": "spaceapp-b427e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200271747574:android:5c18ad3b4d2d601d244fd7",
+        "android_client_info": {
+          "package_name": "com.example.nasa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200271747574-g3c9vuiho6jonr8io4hu9dn21oq3ifqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByp1z7TZ0REPbOH8kdbUWSnw_SqPHlcOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200271747574-g3c9vuiho6jonr8io4hu9dn21oq3ifqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
